@@ -1,1 +1,1 @@
-hadoop jar /opt/hadoop/contrib/streaming/hadoop-streaming-1.2.1.jar -file mapper.py -mapper mapper.py -file reducer.py -reducer reducer.py  -input $1 -output $2
+hadoop jar /opt/hadoop/contrib/streaming/hadoop-streaming-1.2.1.jar -file pymap.py -mapper pymap.py -file pyreduce.py -reducer pyreduce.py -input /test01/input -output /test01/input.out -file test01.cfg
