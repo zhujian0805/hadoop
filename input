@@ -38,3 +38,4 @@ libvirt-dnsmasq x 117 125 Libvirt Dnsmasq,,, /var/lib/libvirt/dnsmasq /bin/false
 ftp x 118 126 ftp daemon,,, /srv/ftp /bin/false
 puppet x 119 128 Puppet configuration management daemon,,, /var/lib/puppet /bin/false
 xrdp x 120 129  /var/run/xrdp /bin/false
+xrdp x 120 129  /var/run/xrdp /bin/false
