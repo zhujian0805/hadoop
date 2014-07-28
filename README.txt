@@ -21,3 +21,6 @@ the output: /test01/input.out
 The configuration file read by mapper script:
 ------------
 test01.cfg
+
+
+
